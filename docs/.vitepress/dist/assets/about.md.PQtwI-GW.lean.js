@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,a0 as i}from"./chunks/framework.BdmfxM1b.js";const _=JSON.parse('{"title":"关于我","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),o={name:"about.md"};function l(n,a,s,h,u,c){return e(),r("div",null,[...a[0]||(a[0]=[i("",9)])])}const m=t(o,[["render",l]]);export{_ as __pageData,m as default};
