@@ -1,0 +1,31 @@
+---
+layout: home
+
+hero:
+  name: nusireti
+  text: AI 应用开发 · 个人作品集
+  tagline: 大三 AI 方向 · 独立开发者 · 持续学习中
+  actions:
+    - theme: brand
+      text: 我的项目
+      link: /projects/
+    - theme: alt
+      text: 学习笔记
+      link: /notes/
+    - theme: alt
+      text: 关于我
+      link: /about
+
+features:
+  - icon: 🦝
+    title: RAG 智能知识库
+    details: 企业级知识库问答系统，支持多模型、混合检索、Agent 工具调用。GitHub 开源项目。
+    link: /projects/rag-knowledge-base
+  - icon: 📖
+    title: AI 学习笔记
+    details: 整理 AI 相关知识，包括吴恩达课程笔记、AI 工具使用等，持续更新中。
+    link: /notes/
+  - icon: 💼
+    title: 接单服务
+    details: Python / AI 应用开发 / 代码调试，可私信沟通。
+---
