@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'nusireti',
   description: 'AI应用开发 · 个人作品集',
   lang: 'zh-CN',
-  base: '/',
+  base: '/nusireti-site/',
   themeConfig: {
     logo: '🦝',
     siteTitle: 'nusireti',
