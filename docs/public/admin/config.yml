@@ -1,0 +1,36 @@
+# Decap CMS 配置 - nusireti.site
+# 文档: https://decapcms.org/docs/
+
+backend:
+  name: github
+  repo: nusireti/nusireti-site
+  branch: gh-pages
+  site_domain: nusireti.github.io
+
+# 本地开发用 (先启用，后面配好线上认证再改)
+local_backend: true
+
+# 图片上传路径
+media_folder: "docs/public/images/uploads"
+public_folder: "/images/uploads"
+
+# 笔记集合
+collections:
+  - name: "notes"
+    label: "笔记"
+    label_singular: "笔记"
+    folder: "docs/notes"
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: "notes/{{slug}}"
+    sort: "date:desc"
+    summary: "{{title}} — {{date}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "描述", name: "description", widget: "text", required: false }
+      - { label: "发布日期", name: "date", widget: "datetime", required: false }
+      - { label: "标签", name: "tags", widget: "list", required: false, default: [] }
+      - { label: "正文", name: "body", widget: "markdown" }

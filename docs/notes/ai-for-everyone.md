@@ -1,4 +1,9 @@
-# AI For Everyone 课程笔记
+---
+title: AI For Everyone 课程笔记
+description: 吴恩达 AI For Everyone 课程核心知识提炼 — 什么是AI、项目生命周期、数据重要性
+date: 2026-06-01
+tags: ["AI", "吴恩达", "课程笔记"]
+---
 
 > 基于 Andrew Ng 同名课程整理
 
