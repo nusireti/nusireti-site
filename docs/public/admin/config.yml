@@ -2,13 +2,13 @@
 # 文档: https://decapcms.org/docs/
 
 backend:
-  name: github
-  repo: nusireti/nusireti-site
-  branch: gh-pages
-  site_domain: nusireti.github.io
+  name: git-gateway
+  branch: main
+  # 使用 Netlify Identity + Git Gateway 认证
+  # 不需要手动配 OAuth
 
-# 本地开发用 (先启用，后面配好线上认证再改)
-local_backend: true
+# 本地开发用 (线上改为 false)
+local_backend: false
 
 # 图片上传路径
 media_folder: "docs/public/images/uploads"
